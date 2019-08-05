@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--toolbar菜单设置!-->
+        <item name="android:colorControlNormal">@android:color/white</item>
+
+        <item name="overlapAnchor">false</item>
+    </style>
+
+
+    <!-- EditText颜色设置!-->
+    <style name="EditTextTheme" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/colorGray</item>
+        <item name="colorControlActivated">@color/colorBlue</item>
+    </style>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="titleTextColor">#fff</color>
+    <color name="colorGray">#cecccc</color>
+    <color name="colorBlue">#3185e8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="titleColor">#4f82c9</color>
+    <color name="view_Cross_line">#000</color>
+    <color name="Main_Background">#e1e1e1</color>
+</resources>

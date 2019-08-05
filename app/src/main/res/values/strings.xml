@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Somp</string>
+    <string name="titleText">标题栏</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="company_name">公司名称：</string>
+    <string name="project_name">项目名称：</string>
+    <string name="location_name">监测位置：</string>
+    <string name="login">立即登陆</string>
+
+</resources>

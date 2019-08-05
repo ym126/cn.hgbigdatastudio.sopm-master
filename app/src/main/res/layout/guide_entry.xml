@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/guidepage3">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/guide_circleImageView_uploadLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:onClick="onGuideUploadOnClick"
+        android:src="@mipmap/circleview" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/guide_circleImageView_uploadLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="23dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/guide_editText_companyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/company_name"
+                android:maxLines="1"
+                android:textSize="14sp"
+                android:theme="@style/EditTextTheme" />
+
+            <EditText
+                android:id="@+id/guide_editText_projectName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/project_name"
+                android:maxLines="1"
+                android:textSize="14sp"
+                android:theme="@style/EditTextTheme" />
+
+            <EditText
+                android:id="@+id/guide_editText_locationName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/location_name"
+                android:maxLines="1"
+                android:textSize="14sp"
+                android:theme="@style/EditTextTheme" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/guide_button_login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button_style"
+        android:onClick="onGuideLoginOnClick"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+</RelativeLayout>

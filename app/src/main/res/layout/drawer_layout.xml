@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.navigation.NavigationView android:layout_gravity="start"
+    android:fitsSystemWindows="true"
+    app:headerLayout="@layout/navigation_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:text="公司名称"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/drawer_textView_commanyName"
+            android:textSize="30dp"
+            android:layout_marginLeft="40dp"
+            android:text="XXXXXX有限公司"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:text="监测项目名称"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/drawer_textView_projectName"
+            android:textSize="30dp"
+            android:layout_marginLeft="40dp"
+            android:text="污水检测"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:text="监测地点"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/drawer_textView_projectAddress"
+            android:textSize="30dp"
+            android:layout_marginLeft="40dp"
+            android:text="XXX路XXX街XX号"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.google.android.material.navigation.NavigationView>

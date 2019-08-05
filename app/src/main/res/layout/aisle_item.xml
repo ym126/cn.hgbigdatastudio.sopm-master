@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Al0"
+            android:textSize="30sp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/right_text"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="【二燃室温度】"
+            android:layout_toRightOf="@id/item_name"
+            android:textSize="30sp"
+            />
+
+    <TextView
+        android:id="@+id/unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单位："
+        android:textSize="20sp"
+        android:layout_marginLeft="18dp"
+        android:layout_below="@id/right_text"
+        android:layout_toRightOf="@id/item_name"
+        />
+        <TextView
+            android:id="@+id/unit_text"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:text="摄氏度 (℃)"
+            android:textSize="20sp"
+            android:layout_below="@id/right_text"
+            android:layout_toRightOf="@id/unit"
+            />
+        <ImageView
+            android:id="@+id/warning1"
+        android:layout_marginTop="5dp"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@mipmap/warning"
+        android:layout_toRightOf="@id/right_text"
+        />
+<TextView
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="8dp"
+    android:id="@+id/warning_text1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="50.00"
+    android:textSize="17sp"
+    android:layout_toRightOf="@id/warning1"
+
+    />
+
+        <ImageView
+            android:id="@+id/warning2"
+            android:layout_marginTop="10dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@mipmap/warning"
+            android:layout_toRightOf="@id/unit_text"
+            android:layout_below="@+id/warning1"
+            />
+        <TextView
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/warning_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="350.00"
+            android:textSize="17sp"
+            android:layout_toRightOf="@id/warning2"
+            android:layout_below="@id/warning1"
+
+            />
+    </RelativeLayout>
+</LinearLayout>
