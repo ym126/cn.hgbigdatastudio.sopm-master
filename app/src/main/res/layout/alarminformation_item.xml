@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/date_text"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:text="2019/10/18"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="20:47"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/AlarmValue_text"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="1000"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/AlarmContent_text"
+        android:gravity="center"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:text="什么什么鬼出问题了"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

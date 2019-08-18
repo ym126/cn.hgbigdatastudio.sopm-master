@@ -23,6 +23,7 @@ import com.google.android.material.appbar.MaterialToolbar;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import cn.hgbigdatastudio.somp.R;
+import cn.hgbigdatastudio.somp.fragment.AlarmInformationFragment;
 import cn.hgbigdatastudio.somp.fragment.MainFragment;
 import cn.hgbigdatastudio.somp.service.SOMPService;
 
@@ -52,8 +53,9 @@ public class MainActivity extends BaseActivity {
         Log.d("TAG",getSharedPreferences("data",MODE_PRIVATE).getString("company","0"));
 
         getSupportFragmentManager().beginTransaction()
-                .add(R.id.main_frameLayout, new MainFragment())
+                .add(R.id.main_frameLayout, new AlarmInformationFragment())
                 .commit();
+
 
     }
     private ServiceConnection mConnection=new ServiceConnection() {
